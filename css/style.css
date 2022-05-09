@@ -97,3 +97,7 @@ footer {
     justify-items: center;
     align-items: center;
 }
+
+.grid-redes > * {
+    margin: 1.5rem;
+}
