@@ -24,9 +24,9 @@ body {
 
 .header-grid h1:hover {
     padding: 0.5rem;
-    /* border: 1px solid rgba(56, 150, 194, 0.387); */
-    box-shadow: 1px 1px 1px 1px white;
-}
+    box-shadow: 4px -3px 21px 8px white;
+    -webkit-box-shadow: 4px -3px 21px 8px white;
+    -moz-box-shadow: 4px -3px 21px 8px white;}
 
 .header-grid nav ul {
     display: flex;
@@ -40,9 +40,9 @@ body {
 }
 
 .header-grid nav ul li:hover {
-    border: 1px solid rgba(7, 99, 142, 0.743);
-    box-shadow: 1px 1px 1px 1px white;
-}
+    box-shadow: 4px -3px 21px 8px white;
+    -webkit-box-shadow: 4px -3px 21px 8px white;
+    -moz-box-shadow: 4px -3px 21px 8px white;}
 
 nav ul li a {
     text-decoration: none;
@@ -66,9 +66,14 @@ main h2 {
     justify-items: center;
 }
 
+.grid-skills article:hover {
+    box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -webkit-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+}
+
 i {
     color: white;
-    margin-top: 1rem;
 }
  
 i a {
@@ -78,10 +83,6 @@ i a {
     font-family: lato;
     font-weight: bold;
     margin-left: 1rem;
-}
-
-i:hover {
-    box-shadow: 3px 1px 3px 1px;
 }
 
 footer {
@@ -100,4 +101,10 @@ footer {
 
 .grid-redes > * {
     margin: 1.5rem;
+}
+
+.grid-redes > *:hover {
+    box-shadow: 4px -3px 21px 8px rgba(4, 15, 119, 0.788);
+    -webkit-box-shadow: 4px -3px 21px 8px rgba(4, 15, 119, 0.788);
+    -moz-box-shadow: 4px -3px 21px 8px rgba(4, 15, 119, 0.788);
 }
