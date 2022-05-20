@@ -1,0 +1,22 @@
+@media (max-width:768px) {
+    .header-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .footer {
+        flex-direction: column;
+    }
+
+    .grid-skills {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    .presentacion {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,14 @@
+.grid-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 14rem 14rem 14rem;
+    align-items: center;
+    justify-items: center;
+
+    article:hover {
+        box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+        -webkit-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+        -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    }
+}
+

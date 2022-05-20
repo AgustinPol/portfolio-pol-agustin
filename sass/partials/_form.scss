@@ -1,0 +1,53 @@
+.grid-form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+form div {
+    margin-top: 2rem;
+}
+
+.inputs-info {
+    width: 100%;
+}
+
+.botones-container {
+    margin:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 7rem;
+}
+
+.botones-container input {
+    width: 7rem;
+    font-weight: bold;
+    color: rgba(7, 99, 142, 0.743);
+    box-sizing: border-box;
+}
+
+.botones-container input:hover {
+    background-color: rgba(7, 99, 142, 0.743);
+    color: white;
+    box-shadow: 3px;
+} 
+
+.botones-container:hover {
+    box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -webkit-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+}
+
+.formulario-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}

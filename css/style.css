@@ -1,16 +1,22 @@
 * {
     margin: 0;
-    padding: 0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(1, 3, 36);
+    background-color: #222;
     color: rgb(9, 213, 240);
-    font-family: lato;
+    font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
 }
 
 .header-grid {
@@ -20,6 +26,7 @@ body {
     align-items: center;
     justify-items: center;
     border-bottom: 1px solid rgba(7, 99, 142, 0.743);
+    font-family: 'Koulen', cursive;;
 }
 
 .header-grid h1:hover {
@@ -58,6 +65,21 @@ main h2 {
     margin-bottom: 4rem;
 }
 
+.enlace-github {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+}
+
+.enlace-github a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(7, 99, 142, 0.743);
+    border-radius: 2px;
+    padding: 0.5rem;
+}
 .grid-skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -75,14 +97,25 @@ main h2 {
 i {
     color: white;
 }
- 
-i a {
-    text-decoration: none;
+
+span {
     color: white;
-    font-size: 1rem;
-    font-family: lato;
-    font-weight: bold;
-    margin-left: 1rem;
+}
+
+.grid-presentacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.foto-perfil {
+    width: 15rem;
+    border-radius: 2px;
+}
+
+.texto-bienvenida {
+    width: auto;
+    color: white;
 }
 
 footer {
@@ -101,10 +134,65 @@ footer {
 
 .grid-redes > * {
     margin: 1.5rem;
+    color: white;
 }
 
 .grid-redes > *:hover {
-    box-shadow: 4px -3px 21px 8px rgba(4, 15, 119, 0.788);
-    -webkit-box-shadow: 4px -3px 21px 8px rgba(4, 15, 119, 0.788);
-    -moz-box-shadow: 4px -3px 21px 8px rgba(4, 15, 119, 0.788);
+    box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -webkit-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+}
+
+.grid-form {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+form div {
+    margin-top: 2rem;
+}
+
+.inputs-info {
+    width: 100%;
+}
+
+.botones-container {
+    margin:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 7rem;
+}
+
+.botones-container input {
+    width: 7rem;
+    font-weight: bold;
+    color: rgba(7, 99, 142, 0.743);
+    box-sizing: border-box;
+}
+
+.botones-container input:hover {
+    background-color: rgba(7, 99, 142, 0.743);
+    color: white;
+    box-shadow: 3px;
+} 
+
+.botones-container:hover {
+    box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -webkit-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+    -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+}
+
+.formulario-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
 }

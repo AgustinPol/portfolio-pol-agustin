@@ -1,0 +1,28 @@
+.footer {
+    bottom: 0;
+    border-top: 1px solid rgba(7, 99, 142, 0.743);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8rem;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    a {
+        margin: 1.5rem;
+        color: white;
+
+        i {
+            color: white;
+
+            &:hover {
+                box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+                -webkit-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+                -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788);
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,27 @@
+@import"partials/reset";
+@import"partials/header";
+@import"partials/index";
+@import"partials/skills";
+@import"partials/proyectos";
+@import"partials/form";
+@import"partials/footer";
+@import"partials/responsive";
+
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+
+
+
+
