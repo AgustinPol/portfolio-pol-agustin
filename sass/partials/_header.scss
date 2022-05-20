@@ -1,4 +1,4 @@
-.header-grid {
+.header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 10rem;
@@ -8,11 +8,14 @@
     font-family: 'Koulen', cursive;;
 }
 
-h1 {
+.header__title {
     text-align: center;
+    text-decoration: none;
+    color: rgb(9, 213, 240);
+    font-size: 1.5rem;
 }
 
-.header-grid h1:hover {
+.header a:hover {
     padding: 0.5rem;
     box-shadow: 4px -3px 21px 8px white;
     -webkit-box-shadow: 4px -3px 21px 8px white;
@@ -37,7 +40,7 @@ h1 {
     text-align: center;
 }
 
-.header-grid nav ul li:hover {
+.header nav ul li:hover {
     box-shadow: 4px -3px 21px 8px white;
     -webkit-box-shadow: 4px -3px 21px 8px white;
     -moz-box-shadow: 4px -3px 21px 8px white;
