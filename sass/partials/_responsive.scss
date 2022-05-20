@@ -14,9 +14,18 @@
     .grid-skills {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        gap: 3rem;
     }
 
     .presentacion {
         grid-template-columns: 1fr;
+    }
+
+    .presentacion__texto {
+        margin-bottom: 2rem;
+    }
+
+    .presentacion__foto {
+        margin-top: 3rem;
     }
 }
