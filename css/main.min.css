@@ -164,8 +164,12 @@ label {
         -moz-box-shadow: 4px -3px 21px 8px rgba(129, 240, 255, 0.788); }
 
 @media (max-width: 768px) {
-  .header-grid {
-    grid-template-columns: 1fr; }
+  .header {
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem; }
+  .header nav ul li:hover {
+    display: none; }
   .navbar {
     flex-direction: column; }
   .footer {

@@ -1,6 +1,12 @@
 @media (max-width:768px) {
-    .header-grid {
+    .header {
         grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .header nav ul li:hover {
+        display: none;
     }
 
     .navbar {
